@@ -1,0 +1,17 @@
+{
+	"name": "ls_onprem_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\onpremfiles",
+			"userId": "adinathkadam4664@gmail.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5MDlhOGQ4ZS1jNDdlLTQxNjgtYmZhMC0xODQyZmJiZjcwMGYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-selfhosted-aadi",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
